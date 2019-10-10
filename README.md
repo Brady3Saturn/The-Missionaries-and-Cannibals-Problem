@@ -1,7 +1,7 @@
 # The-Missionaries-and-Cannibals-Problem
 a solution to The Missionaries and Cannibals Problem, using Python; DFS; BFS; heuristic
 </br>This is one part of my homework.
-修道士野人问题的Python求解
+<p1>修道士野人问题的Python求解<p1>
 一、	问题描述
 修道士(Missionaries)和野人(Cannibals)问题：
 在河的左岸有N个传教士（M）、N个野人（C）和一条船（Boat)，修道士们想用这条船把所有人都运过河去，但有以下条件限制：
