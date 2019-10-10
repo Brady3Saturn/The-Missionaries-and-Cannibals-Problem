@@ -1,6 +1,6 @@
 # The-Missionaries-and-Cannibals-Problem
 a solution to The Missionaries and Cannibals Problem, using Python; DFS; BFS; heuristic
-This is one part of my homework.
+</br>This is one part of my homework.
 修道士野人问题的Python求解
 一、	问题描述
 修道士(Missionaries)和野人(Cannibals)问题：
