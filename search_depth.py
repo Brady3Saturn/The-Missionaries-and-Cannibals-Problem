@@ -38,7 +38,8 @@ def search_depth(init_state, set_of_operation, layer):  # 深度有界搜索算�
                 sons = whether_expandable(vertex, set_of_operation, relation[str(vertex)])
             else:
                 sons = whether_expandable(vertex, set_of_operation, [0, 0, 0])
-            if sons:  # 判断当前节点是否可扩展
+                t = 0
                 for i in sons:
                     relation[str(i)] = vertex  # 用字典存储节点间的亲属关系，子节点为键，父节点为值
-                    open_list.append(i)
+                    open_list.insert(t, i)
+                    t += 1
